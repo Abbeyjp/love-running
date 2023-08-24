@@ -76,13 +76,22 @@ nav {
 }
 /*Main content*/
 main {
-    background-color: rgb(53, 175, 49);
+    background-color: lightblue;
     flex: 1 0 auto;
     margin-top: 47px;
 }
 /*Footer*/
-footer {
-    background-color: rgb(223, 15, 15);
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 /*Media query: tablets and larger (789px and up)*/
 @media screen and (min-width: 768px) {
