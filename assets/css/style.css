@@ -64,7 +64,7 @@ nav {
     top: 100%;
     
 }
-#nav-toggle:checked~nav{
+#nav-toggle:checked~nav {
 
     display: block;
 }
@@ -74,12 +74,52 @@ nav {
 .nav-toggle-label{
     font-size: 2rem;
 }
+/*Main content*/
 main {
     background-color: rgb(53, 175, 49);
     flex: 1 0 auto;
     margin-top: 47px;
 }
-
+/*Footer*/
 footer {
     background-color: rgb(223, 15, 15);
+}
+/*Media query: tablets and larger (789px and up)*/
+@media screen and (min-width: 768px) {
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-left: 1rem;
+    }
+
+    #menu {
+        display: flex;
+        
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /*main content*/
+    main {
+        /*push main contnt down to accomodate larger header*/
+        margin-top: 79px;
+    }
+}
+/*large devices (lap & desktop, 992px and up)*/
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
