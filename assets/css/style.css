@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: aqua;
+}
+main {
+    background-color: rgb(53, 175, 49);
+}
+footer {
+    background-color: rgb(223, 15, 15);
+}
