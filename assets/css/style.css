@@ -21,6 +21,10 @@ header {
     background-color: aqua;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 main {
     background-color: rgb(53, 175, 49);
     flex: 1 0 auto;
