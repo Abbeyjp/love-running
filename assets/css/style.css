@@ -184,6 +184,13 @@ hr {
     line-height: 0;
 }
 
+/*Signup*/
+#signup {
+    color: orange;
+}
+
+
+
 /*Footer*/
 #social-networks {
     text-align: center;
@@ -198,6 +205,8 @@ hr {
     padding: 5%;
     color: #3a3a3a;
 }
+
+
 
 /*Media query: large and landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
